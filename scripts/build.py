@@ -116,6 +116,7 @@ HEAD = """<!DOCTYPE html>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?{fonts}&display=swap">
+<link rel="icon" href="../../shared/favicon.png">
 <link rel="stylesheet" href="../../shared/demo.css">
 <style>a:hover{{color:{hover}}}</style>
 </head>
