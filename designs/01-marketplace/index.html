@@ -2,268 +2,210 @@
 <html lang="ro">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cristea AutoZone · Marketplace clasic</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cristea AutoZone · Piese auto online — Marketplace</title>
 <meta name="robots" content="noindex">
+<link rel="icon" href="../../shared/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
-<link rel="icon" href="../../shared/favicon.png">
-<link rel="stylesheet" href="../../shared/demo.css">
-<style>a:hover{color:#B8031F}</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="../../shared/shop.css">
+<link rel="stylesheet" href="style.css">
 </head>
-<body id="top">
-<div class="cz" style="width: 100%; background: #F2F2F2; color: #111111; font-family: Inter, system-ui, sans-serif; font-size: 14px">
+<body>
+<a class="sr" href="#continut">Sari la conținut</a>
 
-<div style="background: #111111; color: #E5E5E5; padding: 8px 32px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 24px; font-size: 13px">
-<span>Livrare în toată țara · Ridicare din Satu Mare, Str. Jubileului 20a</span>
-<span>Comenzi telefonice: <a href="tel:0745586673" style="color: #FFFFFF; font-weight: 700">0745 586 673</a></span>
+<div class="top">
+  <div class="wrap top__in">
+    <span class="top__msg"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7zM7 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM17.500 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/></svg>Livrare gratuită peste 500 lei · Ridicare din Satu Mare, Str. Jubileului 20a</span>
+    <nav class="top__links" aria-label="Informații">
+      <a href="#" data-note="comenzi">Urmărește comanda</a>
+      <a href="#">Service auto</a>
+      <a href="#">Contact</a>
+      <a class="top__tel" href="tel:0745586673">0745 586 673</a>
+    </nav>
+  </div>
 </div>
 
-<header style="background: #FFFFFF; padding: 16px 32px; display: flex; flex-wrap: wrap; align-items: center; gap: 14px 28px">
-<a href="#top" aria-label="Cristea AutoZone, prima pagină"><img src="../../shared/logo.png" alt="Cristea AutoZone" style="display: block; height: 58px; width: auto"></a>
-<form style="flex: 999 1 360px; min-width: 0; display: flex">
-<input type="search" aria-label="Caută piese" placeholder="Caută piesa, codul OEM sau brandul" style="flex-grow: 1; min-width: 0; height: 44px; border: 2px solid #D90429; border-right: 0; border-radius: 8px 0 0 8px; padding: 0 16px; font: 500 15px Inter, sans-serif">
-<button type="submit" aria-label="Caută" style="width: 60px; height: 48px; background: #D90429; color: #FFFFFF; border: 0; border-radius: 0 8px 8px 0; display: flex; align-items: center; justify-content: center; cursor: pointer">
-<svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-4-4"></path></svg>
-</button>
-</form>
-<nav style="display: flex; gap: 4px; font-weight: 600">
-<a href="#top" style="height: 48px; padding: 0 14px; display: flex; align-items: center; gap: 8px">
-<svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="8" r="4"></circle><path d="M4 21c1-4 4-6 8-6s7 2 8 6"></path></svg>Contul meu</a>
-<a href="#top" style="height: 48px; padding: 0 14px; display: flex; align-items: center; gap: 8px">
-<svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 10c0 5.5-7 10-7 10z"></path></svg>Favorite</a>
-<a href="#top" style="height: 48px; padding: 0 14px; display: flex; align-items: center; gap: 8px">
-<svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4h2l2.5 12h11L21 8H7"></path><circle cx="9" cy="20" r="1.5"></circle><circle cx="18" cy="20" r="1.5"></circle></svg>Coșul meu <span class="cart-count" style="background: #D90429; color: #FFFFFF; border-radius: 999px; padding: 1px 8px; font-size: 12px">0</span></a>
-</nav>
+<header class="hdr">
+  <div class="wrap hdr__in">
+    <button class="hdr__burger" type="button" data-menu-open aria-label="Deschide meniul de categorii"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+    <a class="hdr__logo" href="#" data-top aria-label="Cristea AutoZone, prima pagină"><img src="../../shared/logo.png" alt="Cristea AutoZone" width="787" height="335"></a>
+    <form class="search" data-search>
+      <label class="sr" for="q">Caută piese</label>
+      <input id="q" type="search" placeholder="Caută piesa, codul OEM sau brandul…">
+      <button type="submit" aria-label="Caută"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.500"/><path d="M20 20l-4.200-4.200"/></svg></button>
+    </form>
+    <nav class="hdr__acts" aria-label="Cont și coș">
+      <a class="act act--car" href="#" data-car-open><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.500 15v-2.500l2-4.500A2 2 0 0 1 7.300 7h9.400a2 2 0 0 1 1.800 1l2 4.500V15a1 1 0 0 1-1 1h-15a1 1 0 0 1-1-1z"/><circle cx="7.500" cy="16.500" r="1.800"/><circle cx="16.500" cy="16.500" r="1.800"/></svg><span><small>Mașina mea</small><b data-car-label="Alege mașina">Alege mașina</b></span></a>
+      <a class="act" href="#" data-note="cont"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4.500 20.500c1-4 4-6 7.500-6s6.500 2 7.500 6"/></svg><span><small>Bun venit</small><b>Contul meu</b></span></a>
+      <a class="act" href="#" data-fav-open><span class="act__ic"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7.500-4.600-7.500-10.200A4.300 4.300 0 0 1 12 7.200a4.300 4.300 0 0 1 7.500 2.600C19.500 15.400 12 20 12 20z"/></svg><i data-fav-count>0</i></span><span><small>Lista mea</small><b>Favorite</b></span></a>
+      <a class="act act--cart" href="#" data-cart-open><span class="act__ic"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.400 11.500h10.800L20.500 8H6.600"/><circle cx="9.500" cy="19.500" r="1.400"/><circle cx="17" cy="19.500" r="1.400"/></svg><i data-cart-count>0</i></span><span><small>Coș</small><b data-cart-total>Coșul meu</b></span></a>
+    </nav>
+  </div>
+  <div class="nav">
+    <div class="wrap nav__in">
+      <button class="nav__all" type="button" data-menu-open><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>Toate categoriile</button>
+      <nav class="nav__links" aria-label="Scurtături">
+        <a class="nav__hot" href="#oferte">Ofertele zilei</a>
+        <a href="#" data-cat-link="franare">Frânare</a>
+        <a href="#" data-cat-link="filtre">Filtre</a>
+        <a href="#" data-cat-link="uleiuri">Uleiuri</a>
+        <a href="#" data-cat-link="electrice">Baterii</a>
+        <a href="#" data-cat-link="anvelope">Anvelope</a>
+        <a href="#" data-tag-link="kit" data-title="Pachete și kituri">Kituri de revizie</a>
+        <a href="#" data-tag-link="new" data-title="Noutăți în stoc">Noutăți</a>
+      </nav>
+    </div>
+  </div>
 </header>
 
-<div style="background: #D90429; color: #FFFFFF; padding: 0 32px; display: flex; flex-wrap: wrap; align-items: center; gap: 0 24px; font-weight: 600">
-<a href="#cat" style="background: #111111; color: #FFFFFF; padding: 14px 20px; display: flex; align-items: center; gap: 10px">
-<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"></path></svg>Toate categoriile</a>
-<a href="#oferte" style="padding: 14px 0; color: #FFFFFF">Ofertele zilei</a>
-<a href="#top" style="padding: 14px 0; color: #FFFFFF">Piese după mașină</a>
-<a href="#top" style="padding: 14px 0; color: #FFFFFF">Uleiuri</a>
-<a href="#top" style="padding: 14px 0; color: #FFFFFF">Anvelope</a>
-<a href="#top" style="padding: 14px 0; color: #FFFFFF">Baterii</a>
-<a href="#top" style="padding: 14px 0; color: #FFFFFF">Accesorii</a>
-<a href="#top" style="padding: 14px 0; color: #FFFFFF">Resigilate</a>
-</div>
+<main id="continut">
+  <section class="hero wrap">
+    <nav class="side" aria-label="Categorii de piese"><ul data-cats="menu"></ul></nav>
 
-<section id="cat" style="padding: 20px 32px 0; display: flex; flex-wrap: wrap; gap: 16px; align-items: stretch">
-<nav aria-label="Categorii" style="flex: 1 1 250px; max-width: 300px; background: #FFFFFF; border-radius: 10px; padding: 8px 0; display: flex; flex-direction: column">
+    <div class="slider" data-slider aria-roledescription="carusel" aria-label="Oferte">
+      <article class="slide slide--dark">
+        <div class="slide__txt">
+          <span class="tag">Săptămâna frânelor</span>
+          <h1>Frânare sigură, la prețuri reduse cu până la 25%</h1>
+          <p>Discuri, plăcuțe și kituri complete, verificate după seria de șasiu.</p>
+          <a class="btn" href="#" data-cat-link="franare">Vezi ofertele la frânare</a>
+        </div>
+        <img class="slide__img" src="../../shared/piese/disc.svg" alt="">
+      </article>
+      <article class="slide slide--red">
+        <div class="slide__txt">
+          <span class="tag tag--dark">Pregătit de iarnă</span>
+          <h2>Baterii, anvelope și ștergătoare pentru sezonul rece</h2>
+          <p>Pachete complete, cu montaj la cerere în service-ul nostru din Satu Mare.</p>
+          <a class="btn btn--dark" href="#" data-tag-link="kit" data-title="Pachete și kituri">Vezi pachetele</a>
+        </div>
+        <img class="slide__img" src="../../shared/piese/anvelopa.svg" alt="">
+      </article>
+      <article class="slide slide--light">
+        <div class="slide__txt">
+          <span class="tag">Revizie completă</span>
+          <h2>Ulei și filtre pentru mașina ta, într-un singur kit</h2>
+          <p>Alegi mașina și primești exact piesele potrivite pentru revizie.</p>
+          <a class="btn" href="#" data-car-open>Alege mașina</a>
+        </div>
+        <img class="slide__img" src="../../shared/piese/ulei.svg" alt="">
+      </article>
+      <button class="slider__arr slider__arr--prev" type="button" data-slider-prev aria-label="Oferta anterioară"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg></button>
+      <button class="slider__arr slider__arr--next" type="button" data-slider-next aria-label="Oferta următoare"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button>
+      <div class="slider__dots" data-slider-dots></div>
+    </div>
 
-<a href="#top" style="min-height: 44px; padding: 0 18px; display: flex; align-items: center; justify-content: space-between; font-weight: 500"><span>Sistem de frânare</span><span aria-hidden="true" style="color: #6B6B6B">›</span></a>
+    <div class="promos">
+      <a class="promo promo--red" href="#" data-tag-link="kit" data-title="Pachete și kituri"><span><small>De la 259,99 lei</small><b>Kituri de revizie</b>Ulei + filtre, pe modelul tău</span><img src="../../shared/piese/filtru-ulei.svg" alt=""></a>
+      <a class="promo" href="#" data-cat-link="electrice"><span><small>Montaj la sediu</small><b>Baterii auto</b>Testare gratuită a bateriei vechi</span><img src="../../shared/piese/baterie.svg" alt=""></a>
+    </div>
+  </section>
 
-<a href="#top" style="min-height: 44px; padding: 0 18px; display: flex; align-items: center; justify-content: space-between; font-weight: 500"><span>Motor și distribuție</span><span aria-hidden="true" style="color: #6B6B6B">›</span></a>
+  <section class="wrap">
+    <ul class="perks">
+      <li><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7zM7 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM17.500 19a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/></svg><span><b>Livrare în 24–48h</b>Gratuită peste 500 lei</span></li>
+      <li><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5.500c0 4.500-3 7.800-7 9.500-4-1.700-7-5-7-9.500V6z"/><path d="M9 12l2.200 2.200L15.500 10"/></svg><span><b>Compatibilitate garantată</b>Verificăm după seria VIN</span></li>
+      <li><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9a8 8 0 0 1 14-3.500L20 8M20 4v4h-4M20 15a8 8 0 0 1-14 3.500L4 16M4 20v-4h4"/></svg><span><b>Retur în 14 zile</b>Simplu, fără întrebări</span></li>
+      <li><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 10h18M7 15h4"/></svg><span><b>Plată la livrare sau cu cardul</b>Tranzacții securizate</span></li>
+    </ul>
+  </section>
 
-<a href="#top" style="min-height: 44px; padding: 0 18px; display: flex; align-items: center; justify-content: space-between; font-weight: 500"><span>Filtre</span><span aria-hidden="true" style="color: #6B6B6B">›</span></a>
+  <section class="wrap">
+    <form class="car" data-vehicle>
+      <div class="car__h"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.500 15v-2.500l2-4.500A2 2 0 0 1 7.300 7h9.400a2 2 0 0 1 1.800 1l2 4.500V15a1 1 0 0 1-1 1h-15a1 1 0 0 1-1-1z"/><circle cx="7.500" cy="16.500" r="1.800"/><circle cx="16.500" cy="16.500" r="1.800"/></svg><span><b>Găsește piese pentru mașina ta</b><small>Vezi doar ce se potrivește</small></span></div>
+      <label><span class="sr">Marcă</span><select data-v="make"></select></label>
+      <label><span class="sr">Model</span><select data-v="model"></select></label>
+      <label><span class="sr">An</span><select data-v="year"></select></label>
+      <label><span class="sr">Motorizare</span><select data-v="engine"></select></label>
+      <button class="btn" type="submit">Arată piesele</button>
+      <button class="car__clear" type="button" data-car-clear hidden>Șterge mașina</button>
+    </form>
+  </section>
 
-<a href="#top" style="min-height: 44px; padding: 0 18px; display: flex; align-items: center; justify-content: space-between; font-weight: 500"><span>Suspensie și direcție</span><span aria-hidden="true" style="color: #6B6B6B">›</span></a>
+  <div data-results-here></div>
 
-<a href="#top" style="min-height: 44px; padding: 0 18px; display: flex; align-items: center; justify-content: space-between; font-weight: 500"><span>Electrice și iluminat</span><span aria-hidden="true" style="color: #6B6B6B">›</span></a>
+  <section class="sec wrap" id="oferte">
+    <div class="panel panel--deals">
+      <div class="sec__head">
+        <h2 class="sec__title">Ofertele zilei</h2>
+        <div class="count" data-countdown aria-label="Timp rămas din ofertă"><span>Se termină în</span><b data-t="h">00</b>:<b data-t="m">00</b>:<b data-t="s">00</b></div>
+        <a class="sec__more" href="#" data-tag-link="deal" data-title="Toate ofertele">Vezi toate ofertele ›</a>
+      </div>
+      <div class="rail"><div class="rail__track" data-products="deal" data-variant="flash"></div></div>
+    </div>
+  </section>
 
-<a href="#top" style="min-height: 44px; padding: 0 18px; display: flex; align-items: center; justify-content: space-between; font-weight: 500"><span>Uleiuri și lichide</span><span aria-hidden="true" style="color: #6B6B6B">›</span></a>
+  <section class="sec wrap">
+    <div class="panel">
+      <div class="sec__head"><h2 class="sec__title">Cumpără după categorie</h2></div>
+      <ul class="tiles" data-cats="tiles"></ul>
+    </div>
+  </section>
 
-<a href="#top" style="min-height: 44px; padding: 0 18px; display: flex; align-items: center; justify-content: space-between; font-weight: 500"><span>Caroserie</span><span aria-hidden="true" style="color: #6B6B6B">›</span></a>
+  <section class="sec wrap">
+    <div class="banners">
+      <a class="banner banner--dark" href="#" data-cat-link="anvelope"><span><small>Sezon de iarnă</small><b>Anvelope cu montaj și echilibrare</b><em>Programează montajul ›</em></span><img src="../../shared/piese/anvelopa.svg" alt=""></a>
+      <a class="banner banner--light" href="#" data-cat-link="suspensie"><span><small>Confort și siguranță</small><b>Amortizoare și piese de suspensie</b><em>Vezi gama ›</em></span><img src="../../shared/piese/amortizor.svg" alt=""></a>
+      <a class="banner banner--red" href="#" data-cat-link="motor"><span><small>Motor</small><b>Kituri de distribuție complete</b><em>Alege kitul ›</em></span><img src="../../shared/piese/distributie.svg" alt=""></a>
+    </div>
+  </section>
 
-<a href="#top" style="min-height: 44px; padding: 0 18px; display: flex; align-items: center; justify-content: space-between; font-weight: 500"><span>Răcire și climatizare</span><span aria-hidden="true" style="color: #6B6B6B">›</span></a>
+  <section class="sec wrap">
+    <div class="panel">
+      <div class="sec__head">
+        <h2 class="sec__title">Cele mai căutate piese</h2>
+        <div class="tabs" data-tabs="#top-grid" role="group" aria-label="Filtrează după categorie">
+          <button type="button" class="is-on" data-cat="all" aria-pressed="true">Toate</button>
+          <button type="button" data-cat="franare" aria-pressed="false">Frânare</button>
+          <button type="button" data-cat="motor" aria-pressed="false">Motor</button>
+          <button type="button" data-cat="filtre" aria-pressed="false">Filtre</button>
+          <button type="button" data-cat="uleiuri" aria-pressed="false">Uleiuri</button>
+          <button type="button" data-cat="electrice" aria-pressed="false">Electrice</button>
+        </div>
+      </div>
+      <div class="pgrid" id="top-grid" data-products="top" data-limit="12"></div>
+    </div>
+  </section>
 
-<a href="#top" style="min-height: 44px; padding: 0 18px; display: flex; align-items: center; justify-content: space-between; font-weight: 500"><span>Anvelope și jante</span><span aria-hidden="true" style="color: #6B6B6B">›</span></a>
+  <section class="sec wrap">
+    <div class="panel">
+      <div class="sec__head"><h2 class="sec__title">Branduri de încredere</h2><a class="sec__more" href="#">Toate brandurile ›</a></div>
+      <ul class="brands"><li>BOSCH</li><li>BREMBO</li><li>CASTROL</li><li>MANN‑FILTER</li><li>SACHS</li><li>NGK</li><li>VARTA</li><li>CONTINENTAL</li><li>HELLA</li><li>VALEO</li><li>TRW</li><li>MOTUL</li></ul>
+    </div>
+  </section>
 
-<a href="#top" style="min-height: 44px; padding: 0 18px; display: flex; align-items: center; justify-content: space-between; font-weight: 500"><span>Accesorii auto</span><span aria-hidden="true" style="color: #6B6B6B">›</span></a>
+  <section class="sec wrap">
+    <div class="panel">
+      <div class="sec__head"><h2 class="sec__title">Noutăți în stoc</h2><a class="sec__more" href="#" data-tag-link="new" data-title="Noutăți în stoc">Vezi toate ›</a></div>
+      <div class="rail"><div class="rail__track" data-products="new"></div></div>
+    </div>
+  </section>
 
-</nav>
-<div class="hero" style="flex: 999 1 520px; min-width: 0; background: #111111; color: #FFFFFF; border-radius: 10px; padding: 48px; display: flex; flex-direction: column; justify-content: center; gap: 18px; min-height: 380px">
-<span style="align-self: flex-start; background: #D90429; font-weight: 700; font-size: 13px; padding: 6px 12px; border-radius: 4px; text-transform: uppercase; letter-spacing: 1px">[CAMPANIE]</span>
-<h1 style="margin: 0; font-size: 54px; font-weight: 800; letter-spacing: -2px; line-height: 1.02; max-width: 620px">Tot ce îi trebuie mașinii tale, într-un singur coș.</h1>
-<p style="margin: 0; font-size: 17px; color: #D0D0D0; max-width: 520px; line-height: 1.5">Piese originale și aftermarket, uleiuri, baterii și anvelope. Verificăm compatibilitatea după seria de șasiu.</p>
-<a href="#oferte" style="align-self: flex-start; height: 50px; padding: 0 28px; display: flex; align-items: center; background: #D90429; color: #FFFFFF; border-radius: 8px; font-weight: 700; font-size: 16px">Vezi ofertele</a>
-</div>
-<div style="flex: 1 1 240px; display: flex; flex-direction: column; gap: 16px">
-<a href="#top" style="flex: 1 1 160px; background: #D90429; color: #FFFFFF; border-radius: 10px; padding: 24px; display: flex; flex-direction: column; justify-content: flex-end; gap: 6px"><span style="font-weight: 800; font-size: 22px; line-height: 1.15">Kit-uri de revizie</span><span>Ulei + filtre, pe modelul tău</span></a>
-<a href="#top" style="flex: 1 1 160px; background: #FFFFFF; border-radius: 10px; padding: 24px; display: flex; flex-direction: column; justify-content: flex-end; gap: 6px; border: 2px solid #111111"><span style="font-weight: 800; font-size: 22px; line-height: 1.15">Baterii auto</span><span style="color: #4A4A4A">Cu montaj la sediu</span></a>
-</div>
-</section>
+  <section class="sec wrap">
+    <div class="svc">
+      <div class="svc__txt"><span class="tag">Magazin + service</span><h2>Cumperi piesa online, o montăm noi în Satu Mare</h2><p>Alegi „Montaj în service” la finalizarea comenzii și îți programăm mașina. Piese și manoperă într-un singur loc.</p><a class="btn" href="#">Programează montajul</a></div>
+      <form class="svc__vin" data-vin><b>Nu găsești piesa?</b><p>Trimite seria de șasiu și îți facem ofertă.</p><label class="sr" for="vin1">Seria de șasiu (VIN)</label><input id="vin1" maxlength="17" placeholder="Ex: WVWZZZ1KZAW000001" autocomplete="off"><button class="btn btn--dark" type="submit">Cere ofertă după VIN</button></form>
+    </div>
+  </section>
+</main>
 
-<section style="margin: 16px 32px 0; background: #FFFFFF; border-radius: 10px; padding: 18px 24px; display: flex; flex-wrap: wrap; gap: 12px 32px; font-weight: 600">
-<span style="flex: 1 1 200px">Livrare: [TERMEN LIVRARE]</span>
-<span style="flex: 1 1 200px">Retur: [CONDIȚII RETUR]</span>
-<span style="flex: 1 1 200px">Plată la livrare sau cu cardul</span>
-<span style="flex: 1 1 200px">Compatibilitate verificată după VIN</span>
-</section>
-
-<section id="oferte" style="margin: 16px 32px 0; background: #FFFFFF; border-radius: 10px; padding: 24px; display: flex; flex-direction: column; gap: 18px">
-<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px">
-<h2 style="margin: 0; font-size: 24px; font-weight: 800; letter-spacing: -0.5px">Ofertele zilei</h2>
-<a href="#top" style="font-weight: 700; color: #B8031F; padding: 12px 0">Vezi toate ›</a>
-</div>
-<div style="display: flex; flex-wrap: wrap; gap: 14px">
-
-<article style="flex: 1 1 210px; min-width: 0; border: 1px solid #E2E2E2; border-radius: 8px; padding: 14px; display: flex; flex-direction: column; gap: 8px; position: relative">
-<span style="position: absolute; top: 12px; left: 12px; background: #D90429; color: #FFFFFF; font-weight: 700; font-size: 12px; padding: 4px 8px; border-radius: 4px">-21%</span>
-<button type="button" aria-label="Adaugă la favorite" style="position: absolute; top: 4px; right: 4px; width: 44px; height: 44px; border: 0; background: transparent; color: #4A4A4A; cursor: pointer"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 10c0 5.5-7 10-7 10z"></path></svg></button>
-<img src="../../shared/piese/placute.svg" alt="Set plăcuțe frână față" style="width: 100%; height: 160px; object-fit: cover; background: #EFEFEF; border-radius: 6px">
-<div style="font-weight: 600; line-height: 1.35; min-height: 38px">Set plăcuțe frână față</div>
-<div style="font-size: 12px; color: #4A4A4A">Cod CAZ-1042</div>
-<div style="font-size: 12px; font-weight: 700">În stoc</div>
-<div style="font-size: 12px; color: #4A4A4A; text-decoration: line-through">239 lei</div>
-<div style="font-weight: 800; font-size: 20px; color: #B8031F">189 lei</div>
-<button type="button" data-cart style="height: 44px; background: #D90429; color: #FFFFFF; border: 0; border-radius: 8px; font: 700 14px Inter, sans-serif; cursor: pointer">Adaugă în coș</button>
-</article>
-
-<article style="flex: 1 1 210px; min-width: 0; border: 1px solid #E2E2E2; border-radius: 8px; padding: 14px; display: flex; flex-direction: column; gap: 8px; position: relative">
-<span style="position: absolute; top: 12px; left: 12px; background: #D90429; color: #FFFFFF; font-weight: 700; font-size: 12px; padding: 4px 8px; border-radius: 4px">-22%</span>
-<button type="button" aria-label="Adaugă la favorite" style="position: absolute; top: 4px; right: 4px; width: 44px; height: 44px; border: 0; background: transparent; color: #4A4A4A; cursor: pointer"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 10c0 5.5-7 10-7 10z"></path></svg></button>
-<img src="../../shared/piese/ulei.svg" alt="Ulei motor 5W-30, 5 L" style="width: 100%; height: 160px; object-fit: cover; background: #EFEFEF; border-radius: 6px">
-<div style="font-weight: 600; line-height: 1.35; min-height: 38px">Ulei motor 5W-30, 5 L</div>
-<div style="font-size: 12px; color: #4A4A4A">Cod CAZ-2210</div>
-<div style="font-size: 12px; font-weight: 700">În stoc</div>
-<div style="font-size: 12px; color: #4A4A4A; text-decoration: line-through">229 lei</div>
-<div style="font-weight: 800; font-size: 20px; color: #B8031F">179 lei</div>
-<button type="button" data-cart style="height: 44px; background: #D90429; color: #FFFFFF; border: 0; border-radius: 8px; font: 700 14px Inter, sans-serif; cursor: pointer">Adaugă în coș</button>
-</article>
-
-<article style="flex: 1 1 210px; min-width: 0; border: 1px solid #E2E2E2; border-radius: 8px; padding: 14px; display: flex; flex-direction: column; gap: 8px; position: relative">
-<span style="position: absolute; top: 12px; left: 12px; background: #D90429; color: #FFFFFF; font-weight: 700; font-size: 12px; padding: 4px 8px; border-radius: 4px">-19%</span>
-<button type="button" aria-label="Adaugă la favorite" style="position: absolute; top: 4px; right: 4px; width: 44px; height: 44px; border: 0; background: transparent; color: #4A4A4A; cursor: pointer"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 10c0 5.5-7 10-7 10z"></path></svg></button>
-<img src="../../shared/piese/distributie.svg" alt="Kit distribuție cu pompă de apă" style="width: 100%; height: 160px; object-fit: cover; background: #EFEFEF; border-radius: 6px">
-<div style="font-weight: 600; line-height: 1.35; min-height: 38px">Kit distribuție cu pompă de apă</div>
-<div style="font-size: 12px; color: #4A4A4A">Cod CAZ-3105</div>
-<div style="font-size: 12px; font-weight: 700">În stoc</div>
-<div style="font-size: 12px; color: #4A4A4A; text-decoration: line-through">799 lei</div>
-<div style="font-weight: 800; font-size: 20px; color: #B8031F">649 lei</div>
-<button type="button" data-cart style="height: 44px; background: #D90429; color: #FFFFFF; border: 0; border-radius: 8px; font: 700 14px Inter, sans-serif; cursor: pointer">Adaugă în coș</button>
-</article>
-
-<article style="flex: 1 1 210px; min-width: 0; border: 1px solid #E2E2E2; border-radius: 8px; padding: 14px; display: flex; flex-direction: column; gap: 8px; position: relative">
-<span style="position: absolute; top: 12px; left: 12px; background: #D90429; color: #FFFFFF; font-weight: 700; font-size: 12px; padding: 4px 8px; border-radius: 4px">-14%</span>
-<button type="button" aria-label="Adaugă la favorite" style="position: absolute; top: 4px; right: 4px; width: 44px; height: 44px; border: 0; background: transparent; color: #4A4A4A; cursor: pointer"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 10c0 5.5-7 10-7 10z"></path></svg></button>
-<img src="../../shared/piese/baterie.svg" alt="Baterie auto 12V 70Ah" style="width: 100%; height: 160px; object-fit: cover; background: #EFEFEF; border-radius: 6px">
-<div style="font-weight: 600; line-height: 1.35; min-height: 38px">Baterie auto 12V 70Ah</div>
-<div style="font-size: 12px; color: #4A4A4A">Cod CAZ-4070</div>
-<div style="font-size: 12px; font-weight: 700">În stoc</div>
-<div style="font-size: 12px; color: #4A4A4A; text-decoration: line-through">499 lei</div>
-<div style="font-weight: 800; font-size: 20px; color: #B8031F">429 lei</div>
-<button type="button" data-cart style="height: 44px; background: #D90429; color: #FFFFFF; border: 0; border-radius: 8px; font: 700 14px Inter, sans-serif; cursor: pointer">Adaugă în coș</button>
-</article>
-
-<article style="flex: 1 1 210px; min-width: 0; border: 1px solid #E2E2E2; border-radius: 8px; padding: 14px; display: flex; flex-direction: column; gap: 8px; position: relative">
-<span style="position: absolute; top: 12px; left: 12px; background: #D90429; color: #FFFFFF; font-weight: 700; font-size: 12px; padding: 4px 8px; border-radius: 4px">-20%</span>
-<button type="button" aria-label="Adaugă la favorite" style="position: absolute; top: 4px; right: 4px; width: 44px; height: 44px; border: 0; background: transparent; color: #4A4A4A; cursor: pointer"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 10c0 5.5-7 10-7 10z"></path></svg></button>
-<img src="../../shared/piese/stergatoare.svg" alt="Set ștergătoare parbriz" style="width: 100%; height: 160px; object-fit: cover; background: #EFEFEF; border-radius: 6px">
-<div style="font-weight: 600; line-height: 1.35; min-height: 38px">Set ștergătoare parbriz</div>
-<div style="font-size: 12px; color: #4A4A4A">Cod CAZ-5018</div>
-<div style="font-size: 12px; font-weight: 700">În stoc</div>
-<div style="font-size: 12px; color: #4A4A4A; text-decoration: line-through">99 lei</div>
-<div style="font-weight: 800; font-size: 20px; color: #B8031F">79 lei</div>
-<button type="button" data-cart style="height: 44px; background: #D90429; color: #FFFFFF; border: 0; border-radius: 8px; font: 700 14px Inter, sans-serif; cursor: pointer">Adaugă în coș</button>
-</article>
-
-</div>
-</section>
-
-<section style="margin: 16px 32px 0; background: #FFFFFF; border-radius: 10px; padding: 24px; display: flex; flex-direction: column; gap: 18px">
-<h2 style="margin: 0; font-size: 24px; font-weight: 800; letter-spacing: -0.5px">Categorii populare</h2>
-<div style="display: flex; flex-wrap: wrap; gap: 14px">
-
-<a href="#top" style="flex: 1 1 170px; min-width: 0; display: flex; flex-direction: column; gap: 10px; align-items: center; text-align: center; font-weight: 600">
-<img src="../../shared/piese/disc.svg" alt="" style="width: 100%; height: 120px; object-fit: cover; background: #EFEFEF; border-radius: 8px">
-<span>Discuri de frână</span>
-</a>
-
-<a href="#top" style="flex: 1 1 170px; min-width: 0; display: flex; flex-direction: column; gap: 10px; align-items: center; text-align: center; font-weight: 600">
-<img src="../../shared/piese/filtru-ulei.svg" alt="" style="width: 100%; height: 120px; object-fit: cover; background: #EFEFEF; border-radius: 8px">
-<span>Filtre ulei</span>
-</a>
-
-<a href="#top" style="flex: 1 1 170px; min-width: 0; display: flex; flex-direction: column; gap: 10px; align-items: center; text-align: center; font-weight: 600">
-<img src="../../shared/piese/amortizor.svg" alt="" style="width: 100%; height: 120px; object-fit: cover; background: #EFEFEF; border-radius: 8px">
-<span>Amortizoare</span>
-</a>
-
-<a href="#top" style="flex: 1 1 170px; min-width: 0; display: flex; flex-direction: column; gap: 10px; align-items: center; text-align: center; font-weight: 600">
-<img src="../../shared/piese/bec.svg" alt="" style="width: 100%; height: 120px; object-fit: cover; background: #EFEFEF; border-radius: 8px">
-<span>Becuri auto</span>
-</a>
-
-<a href="#top" style="flex: 1 1 170px; min-width: 0; display: flex; flex-direction: column; gap: 10px; align-items: center; text-align: center; font-weight: 600">
-<img src="../../shared/piese/ulei.svg" alt="" style="width: 100%; height: 120px; object-fit: cover; background: #EFEFEF; border-radius: 8px">
-<span>Ulei motor</span>
-</a>
-
-<a href="#top" style="flex: 1 1 170px; min-width: 0; display: flex; flex-direction: column; gap: 10px; align-items: center; text-align: center; font-weight: 600">
-<img src="../../shared/piese/baterie.svg" alt="" style="width: 100%; height: 120px; object-fit: cover; background: #EFEFEF; border-radius: 8px">
-<span>Baterii</span>
-</a>
-
-</div>
-</section>
-
-<section style="margin: 16px 32px 0; background: #FFFFFF; border-radius: 10px; padding: 24px; display: flex; flex-direction: column; gap: 18px">
-<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px">
-<h2 style="margin: 0; font-size: 24px; font-weight: 800; letter-spacing: -0.5px">Cele mai căutate piese</h2>
-<a href="#top" style="font-weight: 700; color: #B8031F; padding: 12px 0">Vezi toate ›</a>
-</div>
-<div style="display: flex; flex-wrap: wrap; gap: 14px">
-
-<article style="flex: 1 1 210px; min-width: 0; border: 1px solid #E2E2E2; border-radius: 8px; padding: 14px; display: flex; flex-direction: column; gap: 8px">
-<img src="../../shared/piese/filtru-ulei.svg" alt="Filtru ulei" style="width: 100%; height: 160px; object-fit: cover; background: #EFEFEF; border-radius: 6px">
-<div style="font-weight: 600; line-height: 1.35; min-height: 38px">Filtru ulei</div>
-<div style="font-size: 12px; color: #4A4A4A">Cod CAZ-6001</div>
-<div style="font-size: 12px; font-weight: 700">În stoc</div>
-<div style="font-weight: 800; font-size: 20px">39 lei</div>
-<button type="button" data-cart style="height: 44px; background: #D90429; color: #FFFFFF; border: 0; border-radius: 8px; font: 700 14px Inter, sans-serif; cursor: pointer">Adaugă în coș</button>
-</article>
-
-<article style="flex: 1 1 210px; min-width: 0; border: 1px solid #E2E2E2; border-radius: 8px; padding: 14px; display: flex; flex-direction: column; gap: 8px">
-<img src="../../shared/piese/filtru-aer.svg" alt="Filtru aer" style="width: 100%; height: 160px; object-fit: cover; background: #EFEFEF; border-radius: 6px">
-<div style="font-weight: 600; line-height: 1.35; min-height: 38px">Filtru aer</div>
-<div style="font-size: 12px; color: #4A4A4A">Cod CAZ-6014</div>
-<div style="font-size: 12px; font-weight: 700">În stoc</div>
-<div style="font-weight: 800; font-size: 20px">59 lei</div>
-<button type="button" data-cart style="height: 44px; background: #D90429; color: #FFFFFF; border: 0; border-radius: 8px; font: 700 14px Inter, sans-serif; cursor: pointer">Adaugă în coș</button>
-</article>
-
-<article style="flex: 1 1 210px; min-width: 0; border: 1px solid #E2E2E2; border-radius: 8px; padding: 14px; display: flex; flex-direction: column; gap: 8px">
-<img src="../../shared/piese/disc.svg" alt="Set discuri frână față" style="width: 100%; height: 160px; object-fit: cover; background: #EFEFEF; border-radius: 6px">
-<div style="font-weight: 600; line-height: 1.35; min-height: 38px">Set discuri frână față</div>
-<div style="font-size: 12px; color: #4A4A4A">Cod CAZ-1077</div>
-<div style="font-size: 12px; font-weight: 700">În stoc</div>
-<div style="font-weight: 800; font-size: 20px">349 lei</div>
-<button type="button" data-cart style="height: 44px; background: #D90429; color: #FFFFFF; border: 0; border-radius: 8px; font: 700 14px Inter, sans-serif; cursor: pointer">Adaugă în coș</button>
-</article>
-
-<article style="flex: 1 1 210px; min-width: 0; border: 1px solid #E2E2E2; border-radius: 8px; padding: 14px; display: flex; flex-direction: column; gap: 8px">
-<img src="../../shared/piese/amortizor.svg" alt="Amortizor față" style="width: 100%; height: 160px; object-fit: cover; background: #EFEFEF; border-radius: 6px">
-<div style="font-weight: 600; line-height: 1.35; min-height: 38px">Amortizor față</div>
-<div style="font-size: 12px; color: #4A4A4A">Cod CAZ-7032</div>
-<div style="font-size: 12px; font-weight: 700">În stoc</div>
-<div style="font-weight: 800; font-size: 20px">289 lei</div>
-<button type="button" data-cart style="height: 44px; background: #D90429; color: #FFFFFF; border: 0; border-radius: 8px; font: 700 14px Inter, sans-serif; cursor: pointer">Adaugă în coș</button>
-</article>
-
-<article style="flex: 1 1 210px; min-width: 0; border: 1px solid #E2E2E2; border-radius: 8px; padding: 14px; display: flex; flex-direction: column; gap: 8px">
-<img src="../../shared/piese/anvelopa.svg" alt="Anvelopă iarnă 205/55 R16" style="width: 100%; height: 160px; object-fit: cover; background: #EFEFEF; border-radius: 6px">
-<div style="font-weight: 600; line-height: 1.35; min-height: 38px">Anvelopă iarnă 205/55 R16</div>
-<div style="font-size: 12px; color: #4A4A4A">Cod CAZ-8055</div>
-<div style="font-size: 12px; font-weight: 700">În stoc</div>
-<div style="font-weight: 800; font-size: 20px">319 lei</div>
-<button type="button" data-cart style="height: 44px; background: #D90429; color: #FFFFFF; border: 0; border-radius: 8px; font: 700 14px Inter, sans-serif; cursor: pointer">Adaugă în coș</button>
-</article>
-
-</div>
-</section>
-
-<footer style="margin-top: 24px; background: #111111; color: #C9C9C9; padding: 40px 32px; display: flex; flex-wrap: wrap; gap: 28px 56px; line-height: 1.5">
-<div style="flex: 1 1 100%"><img src="../../shared/logo-alb.png" alt="Cristea AutoZone" style="display: block; height: 64px; width: auto"></div>
-<div style="flex: 1 1 220px; display: flex; flex-direction: column; gap: 4px"><span style="font-weight: 700; color: #FFFFFF; padding-bottom: 6px">Comenzi</span><a href="#top" style="padding: 6px 0">Livrare și plată</a><a href="#top" style="padding: 6px 0">Retur</a><a href="#top" style="padding: 6px 0">Urmărește comanda</a></div>
-<div style="flex: 1 1 220px; display: flex; flex-direction: column; gap: 4px"><span style="font-weight: 700; color: #FFFFFF; padding-bottom: 6px">Cristea AutoZone</span><a href="#top" style="padding: 6px 0">Despre noi</a><a href="#top" style="padding: 6px 0">Service auto</a><a href="#top" style="padding: 6px 0">Contact</a></div>
-<div style="flex: 1 1 260px; display: flex; flex-direction: column; gap: 6px"><span style="font-weight: 700; color: #FFFFFF">Contact</span><span>Str. Jubileului nr. 20a, Satu Mare</span><span>0745 586 673</span><span style="padding-top: 10px">Concept de design – nu este un magazin funcțional.</span></div>
+<footer class="ftr">
+  <div class="wrap ftr__news">
+    <div><b>Primește ofertele pe e‑mail</b><span>Reduceri la piesele pentru mașina ta, fără spam.</span></div>
+    <form data-newsletter><label class="sr" for="nl1">Adresa de e‑mail</label><input id="nl1" type="email" placeholder="adresa@email.ro"><button class="btn" type="submit">Mă abonez</button></form>
+  </div>
+  <div class="wrap ftr__cols">
+    <div class="ftr__brand"><img src="../../shared/logo-alb.png" alt="Cristea AutoZone" width="787" height="335" loading="lazy"><p>Piese auto, uleiuri, baterii și anvelope, cu livrare în toată țara și service propriu în Satu Mare.</p><a class="ftr__tel" href="tel:0745586673">0745 586 673</a><span>Str. Jubileului nr. 20a, Satu Mare</span></div>
+    <div><h3>Comenzi</h3><ul><li><a href="#">Livrare și plată</a></li><li><a href="#">Retur și garanție</a></li><li><a href="#" data-note="comenzi">Urmărește comanda</a></li><li><a href="#">Întrebări frecvente</a></li></ul></div>
+    <div><h3>Cristea AutoZone</h3><ul><li><a href="#">Despre noi</a></li><li><a href="#">Service auto</a></li><li><a href="#">Programare montaj</a></li><li><a href="#">Contact</a></li></ul></div>
+    <div><h3>Categorii</h3><ul><li><a href="#" data-cat-link="franare">Sistem de frânare</a></li><li><a href="#" data-cat-link="motor">Motor și distribuție</a></li><li><a href="#" data-cat-link="filtre">Filtre</a></li><li><a href="#" data-cat-link="uleiuri">Uleiuri și lichide</a></li></ul></div>
+  </div>
+  <div class="wrap ftr__bot"><span>© 2026 Cristea AutoZone. Concept de design realizat de Brixwave; prețurile și produsele sunt exemple.</span><span class="ftr__pay"><i>VISA</i><i>Mastercard</i><i>Ramburs</i></span></div>
 </footer>
 
-</div>
-
-<script src="../../shared/demo.js"></script>
+<script src="../../shared/photos.js"></script>
+<script src="../../shared/shop.js"></script>
 </body>
 </html>
